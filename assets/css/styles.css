@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 16rem;
+    width: 14rem;
+    background-color: grey;
+    border-radius: .3rem;
+    padding: 2rem;
+}
+
+.title {
+    margin: 0;
+}
+
+.input  {
+    all: unset;
+    height: 2rem;
+    width: 200px;
+    text-align: center;
+    border-radius: .2rem;
+    background-color: white;
+    margin: .5rem;
+}
+
+.title-moneda {
+    margin: 0;
+}
+
+.select {
+    margin: .5rem;
+    background-color: white;
+    height: 2rem;
+    width: 200px;
+    text-align: center;
+    border-radius: .2rem;
+ 
+}
+
+.btn-buscar {
+    width: 200px;
+    height: 2rem;
+    border-radius: .2rem;
+    border-color: none;
+}
+
+.monto-final {
+    color: white;
+}
